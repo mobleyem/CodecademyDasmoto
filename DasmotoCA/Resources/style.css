@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.background-image {
+    background-image: url(./images/pattern.webp);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    border: none;
+    position: relative;
+    top: 0;
+    background-size: cover;
+}
+
+.store-name{
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 90vh;
+    z-index: 10;
+    background: rgba(15, 214, 228, 0.6)
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 25%;  
+    height: 10vh;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 2vw;
+    color: rgb(240, 230, 140)
+}
+
+li:hover {
+    background: rgba(15, 214, 228, 0.9)
+}
+
+section {
+    height: 100vh;
+}
+
+.section-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 40%;
+    height: 90vh;
+    clear: none;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border: 5px solid whitesmoke;
+    border-radius: 125px;
+}
+
+.copy {
+    float: right;
+    width: 60%;
+    height: 90vh;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100%;
+    height: 40%;
+    line-height: 40%;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 3vw;
+    color:rgb(240, 230, 140)
+}
+
+.paragraph {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 2vw;
+    color: whitesmoke;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+#brushes {
+    background-color: rgb(0, 250, 154);
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
+}
+
+
+footer {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    font-size: 2vw;
+    color: whitesmoke;
+}
+
+footer p a {
+    color: whitesmoke
+  }
